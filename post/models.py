@@ -12,7 +12,7 @@ class post(models.Model):
 		verbose_name_plural=("post")
 
 	def __str__(self):
-		return self.name
+		return self.title
 
 
 	def get_absolute_url(self):
